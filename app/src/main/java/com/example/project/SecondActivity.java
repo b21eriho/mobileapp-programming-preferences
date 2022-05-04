@@ -31,7 +31,7 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 myPreferenceEditor.putString("LabelText", inputField.getText().toString());
-                myPreferenceEditor.commit();
+                myPreferenceEditor.apply();
             }
         });
     }
